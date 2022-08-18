@@ -1,0 +1,82 @@
+2. Write a program to find last digit of a given number
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int number,lastdigit;
+    printf("enter a number");
+    scanf("%d",&number);
+    lastdigit = number % 10;
+    printf("last digit of a given number %d %d",number,lastdigit);
+    getch();
+}
+3. Write a program to find first digit of a given three digit number
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int number, fristdigit, count;
+    printf("enter any number");
+    scanf("%d",&number);
+    count=log10(number);
+    fristdigit =number /pow(10,count),
+    printf("\n total digit of given number %d ",count);
+    printf("\n find fristdigit of given number  %d",fristdigit);
+    getch();
+
+
+}
+4. Write a program to find middle digit of a given three digit number
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int number, midledigit, count;
+    printf("enter any number");
+    scanf("%d",&number);
+    count=log10(number);
+    midledigit =number /pow(10,count),
+    printf("\n total digit of given number %d ",count);
+    printf("\n find midledigit of given number  %d",midledigit);
+    getch();
+
+
+}
+5. Write a program to swap values of two int variables
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the value of A\n");
+    scanf("%d",&a);
+    printf("enter the value of B\n");
+    scanf("%d",&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("swap the value %d %d  ",a,b);
+    getch();
+}
+6. Write a program to swap values of two int variables without using third variable
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b,temp;
+    printf("\nEnter The value of A\n");
+    scanf("%d",&a);
+    printf("\nEnter the Value of B\n");
+    scanf("%d",&b);
+    printf("\n Before Swapping\n");
+    printf(" A:: %d \n B:: %d",a,b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("\n After Swapping\n");
+    printf(" A:: %d \n B:: %d",a,b);
+    getch();
+
+
+}
+
