@@ -1,0 +1,97 @@
+1. Write a program to calculate the sum of two numbers.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b,c;
+    printf("Please Enter Two Number");
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("sum of %d and %d is %d",a,b,c);
+    getch();
+}
+8. Write a program which takes a character as input and print its ASCII code.#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    char c;
+    printf("Enter any character \n");
+    scanf("%c",&c);
+    printf("\n ASCII value of given character %d",c);
+    getch();
+}
+2.Write a program to calculate the area of a circle.
+#include<stdio.h>
+#include<conio.h>
+#define PI 3.141
+int main()
+{
+    float radius, area;
+    printf("Enter radius of circle\n");
+    scanf("%f", & radius);
+    area = PI * radius * radius;
+    printf("Area of circle : %0.4f\n", area);
+    getch();
+
+}
+3.Write a program to calculate the volume of a Cuboid.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int l, h, b, vol;
+    printf("\n Enter the value of length ,breadth and height of cuboid ");
+    scanf("%d%d%d",&l,&h,&b);
+    vol=l*h*b;
+    printf("\n valoum of cuboid %d",vol);
+    getch();
+}
+4. Write a program to calculate the simple interest
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    float p,r,t,si;
+    printf("Enter The Value of Principle amount ");
+    scanf("%f",&p);
+    printf("Enter The Value of rate of interest");
+    scanf("%f",&r);
+    printf("Enter The Value of time");
+    scanf("%f",&t);
+    si=(p*r*t)/100;
+    printf("\n simple interest is %f",si);
+    getch();
+}
+5. Write a program to calculate the area of a rectangle
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int l, b, area;
+    printf("Enter the value of Lenght:");
+    scanf("%d",&l);
+    printf("Enter the value of Bredht:");
+    scanf("%d",&b);
+    area=l*b;
+    printf("Value of Area %d",area);
+    getch();
+}
+6. Write a program to calculate the average of three numbers
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int n1, n2, n3, average;
+    printf("Enter The Number1:");
+    scanf("%d",&n1);
+    printf("Enter The Number2:");
+    scanf("%d",&n2);
+    printf("Enter The Number3:");
+    scanf("%d",&n3);
+    average=(n1+n2+n3)/3;
+    printf("Value of Average is: %d",average);
+    getch();
+
+
+
+}
